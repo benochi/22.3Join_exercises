@@ -79,7 +79,7 @@ JOIN casting ON movie.id = movieid
 JOIN actor ON actor.id = actorid
 WHERE actor.name = 'Julie Andrews')
 
-13. Obtain a list, in alphabetical order, of actors who've had at least 15 starring roles.
+13. Obtain a list, in alphabetical order, of actors whove had at least 15 starring roles.
 SELECT DISTINCT name FROM casting
 JOIN movie ON movie.id = movieid
 JOIN actor ON actor.id = actorid
